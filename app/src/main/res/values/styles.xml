@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/color_main_blue</item>
+
+        <item name="android:itemBackground">@color/color_white</item>
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextApearance</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="myCustomMenuTextApearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+<!--    <style name="AppSearchView" parent="Widget.AppCompat.SearchView">-->
+<!--        <item name="android:textSize">17sp</item>-->
+<!--                <item name="android:editTextColor">@color/color_black_two</item>-->
+<!--                <item name="android:textColorHint">@color/color_msg_text_gray</item>-->
+<!--    </style>-->
+</resources>

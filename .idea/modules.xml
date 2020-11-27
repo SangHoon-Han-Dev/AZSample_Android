@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AZSample_Android.iml" filepath="$PROJECT_DIR$/AZSample_Android.iml" group="AZSample_Android" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AZSample_Android/app" />
+      <module fileurl="file://$PROJECT_DIR$/az_028_dev_debug/az_028_dev_debug.iml" filepath="$PROJECT_DIR$/az_028_dev_debug/az_028_dev_debug.iml" group="AZSample_Android/az_028_dev_debug" />
+      <module fileurl="file://$PROJECT_DIR$/az_029_dev_debug/az_029_dev_debug.iml" filepath="$PROJECT_DIR$/az_029_dev_debug/az_029_dev_debug.iml" group="AZSample_Android/az_029_dev_debug" />
+      <module fileurl="file://$PROJECT_DIR$/az_029_prod_debug/az_029_prod_debug.iml" filepath="$PROJECT_DIR$/az_029_prod_debug/az_029_prod_debug.iml" group="AZSample_Android/az_029_prod_debug" />
+      <module fileurl="file://$PROJECT_DIR$/az_030_dev_debug/az_030_dev_debug.iml" filepath="$PROJECT_DIR$/az_030_dev_debug/az_030_dev_debug.iml" group="AZSample_Android/az_030_dev_debug" />
+      <module fileurl="file://$PROJECT_DIR$/az_030_prod/az_030_prod.iml" filepath="$PROJECT_DIR$/az_030_prod/az_030_prod.iml" group="AZSample_Android/az_030_prod" />
+      <module fileurl="file://$PROJECT_DIR$/az_030_prod_debug/az_030_prod_debug.iml" filepath="$PROJECT_DIR$/az_030_prod_debug/az_030_prod_debug.iml" group="AZSample_Android/az_030_prod_debug" />
+      <module fileurl="file://$PROJECT_DIR$/az_031_dev_debug/az_031_dev_debug.iml" filepath="$PROJECT_DIR$/az_031_dev_debug/az_031_dev_debug.iml" group="AZSample_Android/az_031_dev_debug" />
+      <module fileurl="file://$PROJECT_DIR$/az_031_prod/az_031_prod.iml" filepath="$PROJECT_DIR$/az_031_prod/az_031_prod.iml" group="AZSample_Android/az_031_prod" />
+      <module fileurl="file://$PROJECT_DIR$/az_031_prod_debug/az_031_prod_debug.iml" filepath="$PROJECT_DIR$/az_031_prod_debug/az_031_prod_debug.iml" group="AZSample_Android/az_031_prod_debug" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_032_dev_debug/az_032_dev_debug.iml" filepath="$PROJECT_DIR$/.idea/modules/az_032_dev_debug/az_032_dev_debug.iml" group="AZSample_Android/az_032_dev_debug" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_032_prod/az_032_prod.iml" filepath="$PROJECT_DIR$/.idea/modules/az_032_prod/az_032_prod.iml" group="AZSample_Android/az_032_prod" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_032_prod_debug/az_032_prod_debug.iml" filepath="$PROJECT_DIR$/.idea/modules/az_032_prod_debug/az_032_prod_debug.iml" group="AZSample_Android/az_032_prod_debug" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_032_prod_debug_pro/az_032_prod_debug_pro.iml" filepath="$PROJECT_DIR$/.idea/modules/az_032_prod_debug_pro/az_032_prod_debug_pro.iml" group="AZSample_Android/az_032_prod_debug_pro" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_033_dev_debug/az_033_dev_debug.iml" filepath="$PROJECT_DIR$/.idea/modules/az_033_dev_debug/az_033_dev_debug.iml" group="AZSample_Android/az_033_dev_debug" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_033_prod_debug/az_033_prod_debug.iml" filepath="$PROJECT_DIR$/.idea/modules/az_033_prod_debug/az_033_prod_debug.iml" group="AZSample_Android/az_033_prod_debug" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_034_dev_debug/az_034_dev_debug.iml" filepath="$PROJECT_DIR$/.idea/modules/az_034_dev_debug/az_034_dev_debug.iml" group="AZSample_Android/az_034_dev_debug" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_034_prod/az_034_prod.iml" filepath="$PROJECT_DIR$/.idea/modules/az_034_prod/az_034_prod.iml" group="AZSample_Android/az_034_prod" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_034_prod_debug/az_034_prod_debug.iml" filepath="$PROJECT_DIR$/.idea/modules/az_034_prod_debug/az_034_prod_debug.iml" group="AZSample_Android/az_034_prod_debug" />
+      <module fileurl="file://$PROJECT_DIR$/az_0615_1/az_0615_1.iml" filepath="$PROJECT_DIR$/az_0615_1/az_0615_1.iml" group="AZSample_Android/az_0615_1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_1007_6/az_1007_6.iml" filepath="$PROJECT_DIR$/.idea/modules/az_1007_6/az_1007_6.iml" group="AZSample_Android/az_1007_6" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_1008_1/az_1008_1.iml" filepath="$PROJECT_DIR$/.idea/modules/az_1008_1/az_1008_1.iml" group="AZSample_Android/az_1008_1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_1008_10/az_1008_10.iml" filepath="$PROJECT_DIR$/.idea/modules/az_1008_10/az_1008_10.iml" group="AZSample_Android/az_1008_10" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_1008_11/az_1008_11.iml" filepath="$PROJECT_DIR$/.idea/modules/az_1008_11/az_1008_11.iml" group="AZSample_Android/az_1008_11" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_1008_2/az_1008_2.iml" filepath="$PROJECT_DIR$/.idea/modules/az_1008_2/az_1008_2.iml" group="AZSample_Android/az_1008_2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_1008_3/az_1008_3.iml" filepath="$PROJECT_DIR$/.idea/modules/az_1008_3/az_1008_3.iml" group="AZSample_Android/az_1008_3" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_1008_4/az_1008_4.iml" filepath="$PROJECT_DIR$/.idea/modules/az_1008_4/az_1008_4.iml" group="AZSample_Android/az_1008_4" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_1008_5/az_1008_5.iml" filepath="$PROJECT_DIR$/.idea/modules/az_1008_5/az_1008_5.iml" group="AZSample_Android/az_1008_5" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_1008_6/az_1008_6.iml" filepath="$PROJECT_DIR$/.idea/modules/az_1008_6/az_1008_6.iml" group="AZSample_Android/az_1008_6" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_1008_7/az_1008_7.iml" filepath="$PROJECT_DIR$/.idea/modules/az_1008_7/az_1008_7.iml" group="AZSample_Android/az_1008_7" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_1008_8/az_1008_8.iml" filepath="$PROJECT_DIR$/.idea/modules/az_1008_8/az_1008_8.iml" group="AZSample_Android/az_1008_8" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_1008_9/az_1008_9.iml" filepath="$PROJECT_DIR$/.idea/modules/az_1008_9/az_1008_9.iml" group="AZSample_Android/az_1008_9" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/az_1125_4/az_1125_4.iml" filepath="$PROJECT_DIR$/.idea/modules/az_1125_4/az_1125_4.iml" group="AZSample_Android/az_1125_4" />
+    </modules>
+  </component>
+</project>

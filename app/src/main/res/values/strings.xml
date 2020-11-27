@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">호미 알림장 테스트</string>
+    <string name="search_hint">검색어 입력</string>
+</resources>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_main_area"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+    <!--<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="하하하하하" />
+    </android.support.v7.widget.Toolbar>-->
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="호미 알림장 테스트"
+        android:textColor="@color/color_black"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_initAZ"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:text="알림장 Init"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_startAZ"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:text="알림장 실행"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_setMarketingAgreeState"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:text="광고수신 동의하기"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_guide_open"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="가이드 보기"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvLinkify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="tvLinkify"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvLinkify2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tvLinkify2"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvSpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:bufferType="spannable"
+            android:text="테스트1,안녕하세요?"
+            android:visibility="gone" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/sv_searchview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@color/color_white"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_unreadmsg_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_recentmsg_count_area"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="읽지 않은 메시지 개수: "
+            android:textColor="@color/color_black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_unread_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/color_black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_recentmsg_count_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_recentmsg_area"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="최근 수신한 메시지 개수: "
+            android:textColor="@color/color_black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_recentmsg_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/color_black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_recentmsg_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" />
+
+    <!-- <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:autoLink="all"
+         android:layout_marginBottom="20dp"
+         android:text="http://naverapp.naver.com/default/?version=5" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:autoLink="all"
+         android:text="v3mobileplus://v3mpl?type=1" />-->
+
+    <!--<Button
+        android:id="@+id/bt_getNotiCount"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="미확인 메시지 개수 가져오기"/>
+
+    <Button
+        android:id="@+id/bt_start_service"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Start Service"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/bt_stop_service"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="StopService"
+        android:visibility="visible"/>-->
+
+    <LinearLayout
+        android:id="@+id/ll_guide_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_white"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:text="호미 알림장 테스트 가이드"
+            android:textColor="@color/color_black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="1. 알림장 Init 버튼"
+            android:textColor="@color/color_black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text=" - 알림장 라이브러리가 사용준비 됩니다.
+\n - 실패 시 앱 재실행 후 시도해주세요.
+\n - 새로운 메시지가 있다면 다운로드 됩니다.
+\n - 읽지않은 메시지 개수를 가져옵니다.
+\n - 최근 수신한 메시지 두개를 가져옵니다.
+\n - 변경된 사용자 데이터(전화번호, FCM Token, 광고성 메시지 수신여부)가 있는지 확인합니다.
+\n - 전화번호가 변경되었다면 모든 데이터(메시지 등)를 초기화합니다."
+            android:textColor="@color/color_black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="2. 알림장 실행 버튼"
+            android:textColor="@color/color_black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text=" - 알림장이 실행 됩니다.
+\n - 첫실행이거나 변경된 사용자 데이터(전화번호, FCM Token, 광고성 메시지 수신여부)가 있다면 알림장에 약관동의(디바이스 등록 또는 재등록)됩니다.
+"
+            android:textColor="@color/color_black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="3. 광고수신 동의하기 버튼"
+            android:textColor="@color/color_black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text=" - 광고성 메시지 수신여부가 변경합니다."
+            android:textColor="@color/color_black"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/bt_guide_close"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="닫기"
+            android:textSize="20sp" />
+    </LinearLayout>
+</RelativeLayout>

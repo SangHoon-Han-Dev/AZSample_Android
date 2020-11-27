@@ -1,0 +1,18 @@
+include ':az_1125_4'
+
+include ':az_034_prod'
+include ':az_034_prod_debug'
+include ':az_034_dev_debug'
+include ':az_033_dev_debug'
+include ':az_033_prod_debug'
+include ':az_032_prod_debug_pro'
+include ':az_032_prod_debug'
+include ':az_032_prod'
+include ':az_032_dev_debug'
+
+
+//include ':az'
+//project(':az').projectDir=new File('../AZ_Android')
+
+include ':app', ':az_028_dev_debug', ':az_029_dev_debug', ':az_029_prod_debug', ':az_030_dev_debug', ':az_030_prod_debug', ':az_030_prod', ':az_031_dev_debug', ':az_031_prod_debug', ':az_031_prod'
+//project(':AZ').projectDir=new File('C:/DEV/Projects/Rel/AZ_PROJECT_V3MP')01

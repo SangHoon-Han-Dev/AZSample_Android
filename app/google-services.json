@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "822857773809",
+    "project_id": "cnstsample"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822857773809:android:2669babeb9304230",
+        "android_client_info": {
+          "package_name": "com.homey.cnstsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822857773809-bnu9b27q0aacapg7elgi974vt2rjip5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbIBVS66RCif1B3wtBDwIQ_DAoT7M00m0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

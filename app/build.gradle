@@ -1,0 +1,99 @@
+apply plugin: 'com.android.application'
+
+android {
+//    compileSdkVersion 26
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+//    buildToolsVersion '27.0.3'
+//    compileSdkVersion 24
+//    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "com.homey.cnstsample"
+//        minSdkVersion 9
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 4
+        versionName "2.6"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+//        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+//    implementation 'com.android.support:appcompat-v7:26.0.0-beta1'
+
+//    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:appcompat-v7:28.+'
+//    implementation 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
+
+
+
+//    implementation 'com.android.support:appcompat-v7:24.2.1'
+//    implementation 'com.google.android.gms:play-services-gcm:10.2.4'
+    implementation 'junit:junit:4.12'
+
+    // GA
+//    implementation 'com.google.android.gms:play-services-analytics:10.2.4'
+//    implementation 'com.google.android.gms:play-services-analytics:11.4.0'
+
+//    implementation project(':az_028_dev_debug') //db2
+//    implementation project(':az_0224_8_dev')
+//    implementation project(':az_029_dev_debug')
+//    implementation project(':az_029_prod_debug')
+//    implementation project(':az_0414_2')
+//    implementation project(':az_0429_2')
+//    implementation project(':az_0506_2')
+//    implementation project(':az_030_dev_debug')
+//    implementation project(':az_030_prod_debug')
+//    implementation project(':az_030_prod')
+//    implementation project(':az_031_prod_debug')
+//    implementation project(':az_031_prod')
+//    implementation project(':az_031_dev_debug')
+//    implementation project(':az_0813_17_proguard')
+
+
+//        implementation project(':az_031_dev_debug')
+//    implementation project(':az_0909_22')
+
+//    implementation project(':az_032_dev_debug')
+//    implementation project(':az_032_prod')
+//    implementation project(':az_032_prod_debug')
+//    implementation project(':az_032_prod_debug_pro')
+
+
+//    implementation project(':az_033_prod_debug')
+//    implementation project(':az_033_dev_debug')
+//    implementation project(':az_1007_6')
+//    implementation project(':az_1008_11')
+//    implementation project(':az_034_dev_debug')
+//    implementation project(':az_034_prod_debug')
+//    implementation project(':az_034_prod')
+//    implementation project(':az_1118_1')
+//    implementation project(':az_1124_1')
+//    implementation project(':az_1124_5' )
+    implementation project(':az_1125_4' )
+
+
+//    implementation 'com.android.support:multidex:1.0.3'
+
+//    implementation 'com.google.firebase:firebase-messaging:10.2.1'// firebase fcm
+
+
+//    implementation 'com.google.firebase:firebase-messaging:17.3.4'// firebase fcm
+//    implementation 'com.google.firebase:firebase-core:16.0.4'
+
+    implementation 'com.google.firebase:firebase-messaging:17.+'// firebase fcm
+    implementation 'com.google.firebase:firebase-core:17.+'
+}
+apply plugin: 'com.google.gms.google-services'

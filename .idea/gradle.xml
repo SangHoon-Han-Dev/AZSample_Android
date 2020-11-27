@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/az_028_dev_debug" />
+            <option value="$PROJECT_DIR$/az_029_dev_debug" />
+            <option value="$PROJECT_DIR$/az_029_prod_debug" />
+            <option value="$PROJECT_DIR$/az_030_dev_debug" />
+            <option value="$PROJECT_DIR$/az_030_prod" />
+            <option value="$PROJECT_DIR$/az_030_prod_debug" />
+            <option value="$PROJECT_DIR$/az_031_dev_debug" />
+            <option value="$PROJECT_DIR$/az_031_prod" />
+            <option value="$PROJECT_DIR$/az_031_prod_debug" />
+            <option value="$PROJECT_DIR$/az_032_dev_debug" />
+            <option value="$PROJECT_DIR$/az_032_prod" />
+            <option value="$PROJECT_DIR$/az_032_prod_debug" />
+            <option value="$PROJECT_DIR$/az_032_prod_debug_pro" />
+            <option value="$PROJECT_DIR$/az_033_dev_debug" />
+            <option value="$PROJECT_DIR$/az_033_prod_debug" />
+            <option value="$PROJECT_DIR$/az_034_dev_debug" />
+            <option value="$PROJECT_DIR$/az_034_prod" />
+            <option value="$PROJECT_DIR$/az_034_prod_debug" />
+            <option value="$PROJECT_DIR$/az_1125_4" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
