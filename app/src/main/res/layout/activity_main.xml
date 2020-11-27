@@ -51,6 +51,22 @@
             android:textSize="20sp" />
 
         <Button
+            android:id="@+id/bt_getNotiCount"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:text="뱃지 개수"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_getRecentMsg"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:text="최근 메시지"
+            android:textSize="20sp" />
+
+        <Button
             android:id="@+id/bt_setMarketingAgreeState"
             android:layout_width="200dp"
             android:layout_height="50dp"
@@ -109,7 +125,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="읽지 않은 메시지 개수: "
+            android:text="읽지 않은 메시지(뱃지) 개수: "
             android:textColor="@color/color_black"
             android:textSize="20sp" />
 
@@ -134,7 +150,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="최근 수신한 메시지 개수: "
+            android:text="최근 메시지 개수: "
             android:textColor="@color/color_black"
             android:textSize="20sp" />
 

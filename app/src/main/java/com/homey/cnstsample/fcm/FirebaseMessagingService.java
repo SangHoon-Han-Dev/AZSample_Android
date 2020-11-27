@@ -228,11 +228,11 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
                 Log.d(TAG, "content : " + content);
                 Log.d(TAG, "noti_count : " + noti_count);
 
-                boolean get_push_state2 = mAZ.getPushState();
+                /*boolean get_push_state2 = mAZ.getPushState();
                 Log.d(TAG, "hsh_test_1 getPushState= " + get_push_state2);
 
                 int get_noti_count2 = mAZ.getNotiCount();
-                Log.d(TAG, "hsh_test_1 getNotiCount= " + get_noti_count2);
+                Log.d(TAG, "hsh_test_1 getNotiCount= " + get_noti_count2);*/
                 if (onNoti.equals("Y")) {//Notification을 보내도 될때
                     Log.d(TAG, "sendNotification sendMSG result true");
                     Handler mHandler = new Handler(getMainLooper());

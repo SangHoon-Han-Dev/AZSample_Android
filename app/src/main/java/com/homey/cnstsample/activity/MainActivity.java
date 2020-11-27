@@ -82,8 +82,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public TextView tv_recentmsg_count;
 
     Button bt_setMarketingAgreeState;
-
-    /*public Button bt_getNotiCount;
+    public Button bt_getNotiCount;
+    public Button bt_getRecentMsg;
+    /*
     public Button bt_start_service;
     public Button bt_stop_service;*/
 
@@ -234,8 +235,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bt_guide_close = findViewById(R.id.bt_guide_close);
         bt_guide_close.setOnClickListener(this);
 
-        bt_setMarketingAgreeState = (Button) findViewById(R.id.bt_setMarketingAgreeState);
+        bt_setMarketingAgreeState = findViewById(R.id.bt_setMarketingAgreeState);
         bt_setMarketingAgreeState.setOnClickListener(this);
+        bt_getNotiCount = findViewById(R.id.bt_getNotiCount);
+        bt_getNotiCount.setOnClickListener(this);
+        bt_getRecentMsg = findViewById(R.id.bt_getRecentMsg);
+        bt_getRecentMsg.setOnClickListener(this);
 
         // 2018/01/03 광고성 메시지 수신 동의/거절 값 추가
         boolean marketingAgreeState = mSharedPreferenceManager.getBoolean(Const.TAG_MARKETING_AGREE_STATE, true);
@@ -582,7 +587,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             // 약관동의 성공 후
             if (pushAgreeState) {
                 Log.d(TAG, "initAZ 약관동의됨");
-
+/*
                 // 읽지않은 메시지 가져와 설정
                 String unReadMSGCount = String.valueOf(mAZ.getNotiCount());
                 Log.d(TAG, "initAZ unReadMSGCount: " + unReadMSGCount);
@@ -590,7 +595,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 tv_unread_count.setText(unReadMSGCount);
                 Log.d(TAG, "[흐름 테스트] onCreate 4");
                 // 최근 수신 메시지 가져와 설정
-                setRecentMSG();
+                setRecentMSG();*/
                 Log.d(TAG, "[흐름 테스트] onCreate 5");
                 // TODO: 2020-07-07 init 되어있을때 처리
                 if (company_id != null && !company_id.isEmpty() || deeplink_seq != null && !deeplink_seq.isEmpty()) {
@@ -802,6 +807,37 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 ll_guide_area.setVisibility(View.GONE);
                 break;
             }
+
+            case R.id.bt_getNotiCount: {
+                Log.d(TAG, "onClick bt_getNotiCount");
+
+                if (mAZ != null && mAZ.onInit()) {
+                    // TODO: 2020-11-27 읽지않은 메시지 개수 세팅
+                    // 읽지않은 메시지 가져와 설정
+                    String unReadMSGCount = String.valueOf(mAZ.getNotiCount());
+                    Log.d(TAG, "onClick bt_getNotiCount unReadMSGCount: " + unReadMSGCount);
+                    tv_unread_count.setText(unReadMSGCount);
+                } else {
+                    startToast("알림장 init을 해주세요.");
+                }
+
+                break;
+            }
+
+            case R.id.bt_getRecentMsg: {
+                Log.d(TAG, "onClick bt_getRecentMsg");
+
+                if (mAZ != null && mAZ.onInit()) {
+                    // TODO: 2020-11-27 최근검색어 세팅
+                    // 최근 수신 메시지 가져와 설정
+                    setRecentMSG();
+                } else {
+                    startToast("알림장 init을 해주세요.");
+                }
+
+                break;
+            }
+
             case R.id.bt_setMarketingAgreeState: {
                 Log.d(TAG, "onClick bt_setMarketingAgreeState");
                 Log.d(TAG, "TEST_MARKETING_001 onClick bt_setMarketingAgreeState");
